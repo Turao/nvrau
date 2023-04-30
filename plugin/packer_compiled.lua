@@ -74,25 +74,60 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  aylin = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/aylin",
+    url = "https://github.com/AhmedAbdulrahman/vim-aylin"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
   ["formatter.nvim"] = {
     loaded = true,
     path = "/home/lenz/.local/share/nvim/site/pack/packer/start/formatter.nvim",
     url = "https://github.com/mhartington/formatter.nvim"
   },
-  ["mason-lspconfig.vim"] = {
+  ["lsp-zero.nvim"] = {
     loaded = true,
-    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/mason-lspconfig.vim",
-    url = "https://github.com/williamboman/mason-lspconfig.vim"
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
     path = "/home/lenz/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
   ["nvim-dap"] = {
     loaded = true,
     path = "/home/lenz/.local/share/nvim/site/pack/packer/start/nvim-dap",
     url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-go"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/nvim-dap-go",
+    url = "https://github.com/leoluz/nvim-dap-go"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
   },
   ["nvim-lint"] = {
     loaded = true,
@@ -109,15 +144,40 @@ _G.packer_plugins = {
     path = "/home/lenz/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  oceanicnext = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/oceanicnext",
+    url = "https://github.com/adrian5/oceanic-next-vim"
+  },
+  ["one-monokai"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/one-monokai",
+    url = "https://github.com/fratajczak/one-monokai-vim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/lenz/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
   ["rose-pine"] = {
     loaded = true,
     path = "/home/lenz/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
+  },
+  ["rust-tools.nvim"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
+    url = "https://github.com/simrat39/rust-tools.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/lenz/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }
 

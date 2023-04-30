@@ -1,8 +1,10 @@
 -- vim options
-vim.cmd('colorscheme rose-pine')
+-- vim.cmd('colorscheme rose-pine')
 -- vim.cmd('colorscheme one-monokai')
 -- vim.cmd('colorscheme aylin')
 -- vim.cmd('colorscheme oceanicnext')
+-- vim.cmd('colorscheme kanagawa')
+vim.cmd("colorscheme catppuccin")
 
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '

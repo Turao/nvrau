@@ -17,10 +17,15 @@ end
 -- install plugins
 return packer.startup(function()
   use 'wbthomason/packer.nvim' -- Package manager
-  use { 'rose-pine/neovim', as = 'rose-pine'} -- Color Theme
-  -- use { 'fratajczak/one-monokai-vim', as = 'one-monokai'}
-  -- use { 'AhmedAbdulrahman/vim-aylin', as = 'aylin' }
-  -- use { 'adrian5/oceanic-next-vim', as = 'oceanicnext' }
+
+  -- Color Schemes
+  use { 'rose-pine/neovim', as = 'rose-pine'}
+  use { "catppuccin/nvim", as = "catppuccin" }
+  use { 'fratajczak/one-monokai-vim', as = 'one-monokai'}
+  use { 'AhmedAbdulrahman/vim-aylin', as = 'aylin' }
+  use { 'adrian5/oceanic-next-vim', as = 'oceanicnext' }
+  use "rebelot/kanagawa.nvim"
+  use "xiyaowong/transparent.nvim"
 
   -- Syntax
   use 'mfussenegger/nvim-lint'
