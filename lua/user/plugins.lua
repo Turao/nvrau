@@ -25,7 +25,6 @@ return packer.startup(function()
   use { 'AhmedAbdulrahman/vim-aylin', as = 'aylin' }
   use { 'adrian5/oceanic-next-vim', as = 'oceanicnext' }
   use "rebelot/kanagawa.nvim"
-  use "xiyaowong/transparent.nvim"
 
   -- Syntax
   use 'mfussenegger/nvim-lint'
